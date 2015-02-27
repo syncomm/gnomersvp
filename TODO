@@ -1,0 +1,41 @@
+* Required for next release
++ Possible
+- Not any time soon
+
+
+Bugs:
++ Don't save URLs into buffer.txt
++ hilightWord() doesn't move the screen before Gtk2::Main()
++ Sometimes the hilight disapears, not sure why
++ Hilight doesn't hilight just the word, gets whitespace too.
+- Some text files can't be "paragraphized", making them hard to read.
+  These have no blank lines between paragraphs or no tab at the start of a
+  paragraph.
+
+
+Functionality:
++ Remember position of vpane, make it hide the text view when double clicked
++ Bookmark system
++ Recently used files with current saved position
+- DND?
++ Back/Forward sentence/paragraph
+  - Goto sentence/paragraph/word
++ Better support for reading in text that can't be "paragraphized"
+  - Configuration of options while reading file?
+  - Filetype shouldn't be determined by extention if possible
+- It would be nice to use gtkhtml
+  - A namespace for xhtml with information on timing adjustments
+    - Sentence tag <s>
+    - Word tag <w>
+    - Reading speed adjustment can be applied to <s> <w> <p>
++ More filetypes supported
+- Translations
+  - Plugable language support
+    - RTL support too?
+
+
+Packaging:
++ Needs icon
+- Fedora, .spec needs rewriting
++ Debian
+  + Need debian menu item

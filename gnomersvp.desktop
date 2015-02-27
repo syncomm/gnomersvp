@@ -1,8 +1,12 @@
 [Desktop Entry]
+Version=1.0
+Encoding=UTF-8
 Name=GnomeRSVP
 Comment=Rapid Serial Visual Projector
-TryExec=gnomersvp.plx
-Exec=/usr/bin/gnomersvp.plx
-Icon=GnomeRSVP-icon.png
-Terminal=0
+Exec=gnomersvp
+TryExec=gnomersvp
+Icon=gnomersvp.png
+StartupNotify=true
+Terminal=false
 Type=Application
+Categories=GNOME;Application;Viewer

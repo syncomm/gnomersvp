@@ -1,15 +1,16 @@
-GnomeRSVP v.1.1 - (c) Gregory S. Hayes
+GnomeRSVP 2.0
 
-Rapid Serial Visual Projection is the process of blasting words 
-onto the  screen.  In this dynamic representation of text, each 
-word is flashed on the screen one at a time in succession.  The 
-reader is less inclined to "oralize" the text,rather the reader 
-interprets whole words as meaningful written symbols. Automatic 
-re-reading  of  adjacent previous text  is  therefore  rendered 
-impossible. This results in much higher reading speeds than are 
-possible with standard techniques. 
+Copyright (c) 2000-2004
+Gregory S. Hayes <syncomm@icebreaker.net>
+Andrew Phillips <asp@wasteland.org> 
 
-If you think this might be kewl to see run ./INSTALL and choose
+Rapid Serial Visual Projection is the process of blasting words onto
+the screen.  In this dynamic representation of text, each word is
+flashed on the screen one at a time in succession.  The reader is less
+inclined to "oralize" the text, rather the reader interprets whole
+words as meaningful written symbols. Automatic re-reading of adjacent
+previous text is therefore rendered impossible. This results in much
+higher reading speeds than are possible with standard techniques.
+
+If you think this might be cool to see run make install and choose
 GnomeRSVP from the panel apps menu.
-
-

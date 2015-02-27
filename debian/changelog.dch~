@@ -1,0 +1,44 @@
+gnomersvp (1.9-7) unstable; urgency=low
+
+  * 
+
+ -- Andrew Phillips <asp@wasteland.org>  Wed, 17 Nov 2004 18:45:20 -0400
+
+gnomersvp (1.9-6) unstable; urgency=low
+
+  * Removed the builddeps, as all that is needed to build is make and cat
+  * Added libgnome2-gconf as a dep
+
+ -- Andrew Phillips <asp@wasteland.org>  Mon, 27 Sep 2004 13:02:29 -0300
+
+gnomersvp (1.9-5) unstable; urgency=low
+
+  * Schema should now be installed.  We'll see.
+
+ -- Andrew Phillips <asp@wasteland.org>  Sat, 25 Sep 2004 23:18:30 -0300
+
+gnomersvp (1.9-4) unstable; urgency=low
+
+  * Turns out it is making the deb for arch all.
+  * All is good.
+
+ -- Andrew Phillips <asp@wasteland.org>  Wed, 31 Mar 2004 23:18:30 -0400
+
+gnomersvp (1.9-3) unstable; urgency=low
+
+  * Well, I guess I can't make it all, I'll have to look into that.
+
+ -- Andrew Phillips <asp@wasteland.org>  Wed, 31 Mar 2004 22:10:05 -0400
+
+gnomersvp (1.9-2) unstable; urgency=low
+
+  * Make it's arch all in the repo
+
+ -- Andrew Phillips <asp@wasteland.org>  Wed, 31 Mar 2004 21:52:38 -0400
+
+gnomersvp (1.9-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Andrew Phillips <asp@wasteland.org>  Wed, 31 Mar 2004 19:27:55 -0400
+

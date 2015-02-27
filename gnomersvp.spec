@@ -1,5 +1,5 @@
-%define ver      1.4
-%define rel      2
+%define ver      2.0
+%define rel      0
 
 Summary: GnomeRSVP
 Name: gnomersvp
@@ -10,17 +10,16 @@ Group: Applications/Text
 Source: http://www.icebreaker.net/gnomersvp/gnomersvp-%{ver}.tar.gz
 BuildRoot: %{_tmppath}/gnomersvp-%{PACKAGE_VERSION}-root
 URL: http://www.icebreaker.net/gnomersvp
-Requires: gnome-libs >= 1.2.0, Gtk-Perl >= 0.7006
+Requires: perl-Gnome2 >= 1.020, perl-Gnome2-Canvas >= 1.002, perl-Gtk2-GladeXML >= 1.001
 
-%description
-Rapid Serial Visual Projection is the process of blasting words
-onto the  screen.  In this dynamic representation of text, each
-word is flashed on the screen one at a time in succession.  The
-reader is less inclined to "oralize" the text,rather the reader
-interprets whole words as meaningful written symbols. Automatic
-re-reading  of  adjacent previous text  is  therefore  rendered
-impossible. This results in much higher reading speeds than are
-possible with standard techniques.
+%description 
+Rapid Serial Visual Projection is the process of blasting
+words onto the screen.  In this dynamic representation of text, each word
+is flashed on the screen one at a time in succession.  The reader is less
+inclined to "oralize" the text, rather the reader interprets whole words
+as meaningful written symbols. Automatic re-reading of adjacent previous
+text is therefore rendered impossible. This results in much higher reading
+speeds than are possible with standard techniques.
 
 %prep
 %setup

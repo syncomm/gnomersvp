@@ -1,0 +1,174 @@
+2004-11-17 18:03  theasp
+
+	* Makefile, gnomersvp.spec: Upped the version Fixed the dep's in
+	  gnomersvp.spec
+
+2004-10-15 20:49  theasp
+
+	* gnomersvp.pl: Don't need to store speed on quit, just when it
+	  changes.
+
+2004-10-15 20:43  theasp
+
+	* gnomersvp.glade, gnomersvp.pl: Open URL should now almost work,
+	  need VFS for better support.
+
+	  The speed wasn't being stored in gconf, fixed.
+
+2004-09-29 19:54  theasp
+
+	* TODO: vpane ideas
+
+2004-09-28 19:58  theasp
+
+	* gnomersvp.pl: print cleanups.  minor tweak to gotooffset().
+
+2004-09-28 19:38  theasp
+
+	* TODO, gnomersvp.glade, gnomersvp.pl, gnomersvp.schemas:
+	  Beginnings of bookmark support:
+
+	  Save bookmark on exit option Saves HTML and clipboard buffers
+	  into ~/.gnomersvp/buffer.txt Save/Restore in file menu
+
+2004-09-27 13:05  theasp
+
+	* gnomersvp.glade, debian/changelog, debian/control: Speed bar is
+	  now horizontal Changed the debian deps
+
+2004-09-25 18:49  theasp
+
+	* TODO, gnomersvp.glade: Fixed the edit menu order
+
+2004-09-25 17:31  theasp
+
+	* .cvsignore, ChangeLog, debian/.cvsignore, debian/files: Generate
+	  the changelog with cvs2cl.pl More cvsignore tweaks
+
+2004-09-25 17:25  theasp
+
+	* debian/: .cvsignore, gnomersvp.substvars: Don't need the
+	  debhelper files
+
+2004-09-25 17:23  theasp
+
+	* Makefile, TODO, gnomersvp.schema, gnomersvp.schemas,
+	  debian/changelog, debian/control, debian/files,
+	  debian/gnomersvp.substvars, debian/postinst, debian/prerm,
+	  debian/rules: schema file now has the proper name deb will have
+	  the schema installed during postinst bumped deb's dependencies up
+	  to current versions which should be ok for sarge
+
+2004-09-25 16:18  theasp
+
+	* TODO, gnomersvp.pl, gnomersvp.schema: Changed the gconf base so
+	  it doesn't have capitals
+
+2004-09-25 16:06  theasp
+
+	* gnomersvp.pl, TODO, gnomersvp.schema: Removed schema BS from
+	  gnomersvp.pl Added schema file, still some issues I think Offset
+	  can be specified on commandline as 2nd argument Fixed reading dos
+	  formatted files Toggling variable time leaves word group size
+	  alone in preferences
+
+2004-09-25 01:28  theasp
+
+	* TODO: [no log message]
+
+2004-09-25 01:20  theasp
+
+	* TODO, gnomersvp.glade, gnomersvp.pl: Preferences dialog added
+
+2004-09-24 22:39  theasp
+
+	* gnomersvp.pl: Missed capturing the variables for the new text
+	  loading functions
+
+2004-09-24 22:24  theasp
+
+	* gnomersvp.glade, gnomersvp.pl, debian/changelog, debian/control,
+	  LICENSE, Makefile, TODO: Added the license file Trimmed the TODO
+	  list Extra stuff in Makefile glade file that is actually current
+
+2004-09-24 21:58  theasp
+
+	* gnomersvp.pl: proper clipboard support, thanks to muppet.
+
+2004-09-24 21:51  theasp
+
+	* gnomersvp.pl: Use xclip for getting the clipboard on paste, so it
+	  works while i find a real solution
+
+2004-09-24 21:34  theasp
+
+	* gnomersvp.pl: Most gconf support is in! This includes saving the
+	  file and position.
+
+	  Better text cleanup
+
+2004-03-31 22:00  theasp
+
+	* .cvsignore: Added the useless glade project file
+
+2004-03-31 22:00  theasp
+
+	* debian/control: Fixed email address Added Builddepends fixed
+	  whitespace
+
+2004-03-31 21:59  theasp
+
+	* debian/: changelog, files: [no log message]
+
+2004-03-31 21:57  theasp
+
+	* gnomersvp.pl: Cosmetic whitespace fix
+
+2004-03-31 21:56  theasp
+
+	* gnomersvp.glade: Trimmed the offset dialog I wasn't using.
+
+2004-03-31 21:16  theasp
+
+	* gnomersvp.pl: Removed "bad" sub
+
+2004-03-31 20:59  theasp
+
+	* TODO: [no log message]
+
+2004-03-31 19:49  theasp
+
+	* TODO: [no log message]
+
+2004-03-31 19:42  theasp
+
+	* Build, INSTALL, Makefile, README, TODO, gnomersvp-src.pl,
+	  gnomersvp.desktop, gnomersvp.glade, gnomersvp.pl,
+	  debian/changelog, debian/compat, debian/control,
+	  debian/copyright, debian/docs, debian/files,
+	  debian/gnomersvp.postinst.debhelper,
+	  debian/gnomersvp.prerm.debhelper, debian/rules: This is the
+	  GnomeRSVP 2.0 rewrite.
+
+	  Rock on.
+
+2002-10-01 18:40  syncomm
+
+	* .cvsignore, AUTHORS, Build, INSTALL, README, THANKS,
+	  gnomersvp-src.pl, gnomersvp.desktop, gnomersvp.glade,
+	  gnomersvp.spec, debian/.cvsignore, debian/changelog,
+	  debian/control, debian/copyright, debian/dirs, debian/docs,
+	  debian/files, debian/gnomersvp.postinst.debhelper,
+	  debian/gnomersvp.prerm.debhelper, debian/gnomersvp.substvars,
+	  debian/rules: Initial import to SF.net
+
+2002-10-01 18:40  syncomm
+
+	* .cvsignore, AUTHORS, Build, INSTALL, README, THANKS,
+	  gnomersvp-src.pl, gnomersvp.desktop, gnomersvp.glade,
+	  gnomersvp.spec, debian/.cvsignore, debian/changelog,
+	  debian/control, debian/copyright, debian/dirs, debian/docs,
+	  debian/files, debian/gnomersvp.postinst.debhelper,
+	  debian/gnomersvp.prerm.debhelper, debian/gnomersvp.substvars,
+	  debian/rules: Initial revision
+

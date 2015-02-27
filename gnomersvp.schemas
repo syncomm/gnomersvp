@@ -1,0 +1,184 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/gnomersvp/averageWordLength</key>
+      <applyto>/apps/gnomersvp/averageWordLength</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>int</type>
+      <locale name="C">
+	<default>7</default>
+	<short>Average word length</short>
+	<long>The average word length to use for timing calculations</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/file</key>
+      <applyto>/apps/gnomersvp/file</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>string</type>
+      <locale name="C">
+	<default/>
+	<short>Last Loaded File</short>
+	<long>The last loaded file</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/hilightColor</key>
+      <applyto>/apps/gnomersvp/hilightColor</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>string</type>
+      <locale name="C">
+	<default>#FFFF00</default>
+	<short>Highlight Color</short>
+	<long>The color used to higlight in the text window</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/maxPunctuationTiming</key>
+      <applyto>/apps/gnomersvp/maxPunctuationTiming</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>float</type>
+      <locale name="C">
+	<default>3</default>
+	<short>Max punctuation timing multiplier</short>
+	<long>The maximum value for the punctuation timing multiplier</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/newParagraphTiming</key>
+      <applyto>/apps/gnomersvp/newParagraphTiming</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>float</type>
+      <locale name="C">
+	<default>0.75</default>
+	<short>Timing percentage for new paragraphs</short>
+	<long>The percentage of extra time to be added to the timing for new paragraphs</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/position</key>
+      <applyto>/apps/gnomersvp/position</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>int</type>
+      <locale name="C">
+	<default>-1</default>
+	<short>Position in Last Loaded File</short>
+	<long>The position of the last loaded file</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/rsvpBackgroundColor</key>
+      <applyto>/apps/gnomersvp/rsvpBackgroundColor</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>string</type>
+      <locale name="C">
+	<default>#FFFFFF</default>
+	<short>RSVP Background Color</short>
+	<long>The background behind the words that are being shown in the RSVP box</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/rsvpFont</key>
+      <applyto>/apps/gnomersvp/rsvpFont</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>string</type>
+      <locale name="C">
+	<default>Sans 36</default>
+	<short>RSVP Font</short>
+	<long>Font to use for the RSVP display</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/rsvpFontColor</key>
+      <applyto>/apps/gnomersvp/rsvpFontColor</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>string</type>
+      <locale name="C">
+	<default>#000000</default>
+	<short>RSVP Font Color</short>
+	<long>The font color to use for the words that are shown in the RSVP box</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/speed</key>
+      <applyto>/apps/gnomersvp/speed</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>int</type>
+      <locale name="C">
+	<default>125</default>
+	<short>RSVP Speed</short>
+	<long>Speed value to use to drive reading speed</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/speedChangePercentage</key>
+      <applyto>/apps/gnomersvp/speedChangePercentage</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>int</type>
+      <locale name="C">
+	<default>10</default>
+	<short>Change speed percent</short>
+	<long>Percent to change the speed when increasing or decreasing</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/updateSpeedInterval</key>
+      <applyto>/apps/gnomersvp/updateSpeedInterval</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>int</type>
+      <locale name="C">
+	<default>3</default>
+	<short>Speed update time</short>
+	<long>The amount of time between updating the speed in seconds</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/variableTime</key>
+      <applyto>/apps/gnomersvp/variableTime</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>bool</type>
+      <locale name="C">
+	<default>true</default>
+	<short>Use variable time</short>
+	<long>Timing will vary based on puctuation and word length</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/gnomersvp/wordGroupSize</key>
+      <applyto>/apps/gnomersvp/wordGroupSize</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>int</type>
+      <locale name="C">
+	<default>7</default>
+	<short>Maximum size to group words</short>
+	<long>Any number of consecutive words less then this number of charactors will be grouped</long>
+      </locale>
+    </schema>
+    
+    <schema>
+      <key>/schemas/apps/gnomersvp/saveBookmarkOnExit</key>
+      <applyto>/apps/gnomersvp/saveBookmarkOnExit</applyto>
+      <owner>GnomeRSVP</owner>
+      <type>bool</type>
+      <locale name="C">
+	<default>1</default>
+	<short>Save bookmark on exit</short>
+	<long>Save the current file and position on exit</long>
+      </locale>
+    </schema>
+    
+  </schemalist>
+</gconfschemafile>
