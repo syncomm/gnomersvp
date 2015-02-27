@@ -21,6 +21,6 @@ As development increases expect to see the following:
 * Bookmarks
 
 ## Requirements:
-Gnome 1.4
-Gtk+ 1.2
-Gtk Perl (version >= 0.7006 required)
+* Gnome 1.4
+* Gtk+ 1.2
+* Gtk Perl (version >= 0.7006 required)
