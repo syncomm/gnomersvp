@@ -1,6 +1,0 @@
-#!/usr/bin/perl
-print "Building gnomersvp.plx ........ ";
-system("/bin/cat ./gnomersvp-src.pl >./gnomersvp.plx");
-system("/bin/cat ./gnomersvp.glade >>./gnomersvp.plx");
-system("chmod +x ./gnomersvp.plx");
-print "[DONE]\n";
